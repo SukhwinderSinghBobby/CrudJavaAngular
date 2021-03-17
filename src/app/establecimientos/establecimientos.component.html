@@ -1,0 +1,17 @@
+<table>
+  <thead>
+    <tr>
+      <th>NOMBRE</th>
+      <th>CALLE</th>
+      <th>NUMERO</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let establecimiento of listaEstablecimientos">
+      <td>{{establecimiento.nombreEstablecimiento}}</td>
+      <td>{{establecimiento.calleEstablecimiento}}</td>
+      <td>{{establecimiento.numeroEstablecimiento}}</td>
+    </tr>
+  </tbody>
+</table>
